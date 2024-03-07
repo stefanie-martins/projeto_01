@@ -14,10 +14,12 @@
 {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 2%;
 }
 
 .header
 {
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #212343;
@@ -29,6 +31,7 @@
 }
 
 .container-banner{
+    min-width: 1200px;
     width: 100%;
     height: 557px;
     background-image: url(../imagens/header_bg.png);
@@ -122,6 +125,7 @@
 }
 
 .container-2{
+    min-width: 1200px;
     padding: 40px;
     background-color: #DDD;
     text-align: center;
@@ -150,6 +154,7 @@
 }
 
 .section-1{
+    min-width: 1200px;
     padding: 90px 0;
 }
 
@@ -175,4 +180,16 @@
 
 .container-single img{
     width: 70px;
+}
+
+.footer{
+    clear: both;
+    border-top: 2px solid #888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+}
+
+.footer p{
+    margin-top: 8px;
 }
